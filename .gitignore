@@ -1,8 +1,14 @@
 node_modules/
 client/build/
+client/dist/
 server/dist/
+server/backups/
+uploads/
+client-nested-git-backup/
+
 .env
 .env.*
 !.env.example
-npm-debug.log*
-client-nested-git-backup/
+!client/.env.example
+
+*.log
